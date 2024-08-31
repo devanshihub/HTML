@@ -1,0 +1,173 @@
+<a>anchor tag
+==============
+It is used to link a word or image to another file.
+
+<body>
+<a href="a1.html">Next</a>
+<a href="http://www.facebook.com">FB</a>
+<h1>Delhi Public School </h1>
+<p>This is a para this is a para here </p>
+</body>
+============
+To open Link in New tab
+============
+
+<body>
+<a href="a1.html" target="blank">Next</a>
+<a href="http://www.facebook.com">FB</a>
+<h1>Delhi Public School </h1>
+<p>This is a para this is a para here </p>
+</body>
+
+
+
+<base> tag:
+=======
+It is used to provide default setting for <a> anchor tag.
+======================================
+<head>
+<titile>
+dps.com
+</title>
+<base href="http://www.google.com" target="blank">
+<base href="http://www.facebook.com" target="blank">
+</head>
+<body>
+<a href="">JSP Tut</a>
+<a href="">HTML Tut</a>
+<a href="">Servlet Tut</a>
+<a href="">ASP Tut</a>
+<a href="">CSS Tut</a>
+<a href="home.html">Home</a>
+<h1>Delhi Public School</h1>
+</body>
+====================================
+<meta> tag:
+=========
+meta means metadata. 
+It is used to describe your web page.
+information written inside the <meta> tag can not seen by web surfer it is used by search engine to optomoize your web page.
+=======================================
+<head>
+<meta name="keywords" content="DPS, Delhi public School, School , best school">
+<meta name="description" content="This is a best school.... . . . . .">
+<meta name="author" content="Developed abc company">
+<meta name="revised" content="updated 1/1/2018">
+<meta http-equiv="refresh" content="5;url=http://www.google.com">
+</head>
+<body>
+<h1> DPS</h1>
+<p>This is a para  here </p>
+</body> 
+<h1>one</h1>
+<hr/>
+<br/>
+<img src="a.jpg"/>
+<input type="checkbox" checked="true"/>
+
+
+HTML and XHTML
+============
+What Is XHTML?
+=================
+XHTML stands for EXtensible HyperText Markup Language
+XHTML is almost identical to HTML
+XHTML is stricter than HTML
+XHTML is HTML defined as an XML application
+XHTML is supported by all major browsers
+
+Why XHTML?
+=================
+Many pages on the internet contain "bad" HTML.
+
+This HTML code works fine in most browsers (even if it does not follow the HTML rules):
+
+
+The Most Important Differences from HTML:
+
+Document Structure
+======================
+XHTML DOCTYPE is mandatory
+The xmlns attribute in <html> is mandatory
+<html>, <head>, <title>, and <body> are mandatory
+
+XHTML Elements(tag)
+======================
+XHTML elements must be properly nested
+XHTML elements must always be closed
+XHTML elements must be in lowercase
+
+XHTML documents must have one root element
+====================================
+XHTML Attributes
+=====================
+Attribute names must be in lower case
+Attribute values must be quoted
+Attribute minimization is forbidden
+
+Example of XHTML document
+===========================
+
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <title>Title of document</title>
+</head>
+
+<body>
+<p><b><i>This is a para</i></b></p>
+<br/>
+<hr/>
+<img src="a.jpg"/>
+<input type="checkbox" checked="true"/>
+</body>
+
+</html>
+============================================================
+
+DHTML(Dynamic Hypertext markup language)
+========================================
+DHTML is the art of combining HTML, JavaScript, DOM, and CSS.
+DHTML is Not a Language
+DHTML stands for Dynamic HTML.
+To most people DHTML means the combination of HTML, JavaScript, DOM, and CSS.
+
+HTML
+=====
+To create structure of web page.
+
+JavaScript
+=============
+JavaScript is the scripting standard for HTML.
+
+DHTML is about using JavaScript to control, access and manipulate HTML elements.
+
+
+HTML DOM
+============
+
+The HTML DOM is the W3C standard Document Object Model for HTML.
+
+The HTML DOM defines a standard set of objects for HTML, and a standard way to access and manipulate them.
+
+DHTML is about using the DOM to access and manipulate HTML elements.
+
+
+HTML Events
+===============
+The W3C HTML Event Model is a part of the HTML DOM.
+
+It defines a standard way to handle HTML events.
+
+DHTML is about creating web pages that reacts to (user)events.
+
+You can read more about this in a later chapter of this tutorial.
+
+CSS
+===========
+CSS is the W3C standard style and layout model for HTML.
+
+CSS allows web developers to control the style and layout of web pages.
+
+================================================

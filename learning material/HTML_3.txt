@@ -1,0 +1,196 @@
+Image Tag in HTML
+==================
+Html provide following tag for image:
+====================================
+<img> or <image>
+<figure>
+<figcaption>
+<svg>
+<canvas>
+========================================
+<img> or <image>
+==================
+To insert image on web page.
+Attribute of <img> tag
+=======================
+src
+height
+width
+align
+border
+usemap
+alt
+===========================
+To insert image on web page.
+========================
+<body>
+<img src="a.jpg">
+
+<img src="a.jpg" height="200" width="300">
+
+<img src="a.jpg" height="200" width="300" alt="Pic Not Found ">
+
+<img src="a.jpg" height="200" width="300" alt="Pic Not Found " border="2">
+</body>
+===================================================================
+<figure> and <figcaption>tag
+===============================
+<body>
+<figure>
+<img src="a.jpg" height="200" width="300">
+<figcaption> Figure 1</figcaption>
+</figure>
+</body>
+=========================
+<body>
+<figure>
+
+<figcaption> Figure 1</figcaption>
+<img src="a.jpg" height="200" width="300">
+</figure>
+</body>
+==============================================
+<svg>(Scalable Vector Graphics)
+================================
+It is used to draw shape on web page.
+like rectangle, circle ......etc.
+=================To Draw Circle===========
+<body>
+<svg height="300" width="300">
+<circle cx="50" cy="50" r="40" fill="yellow" stroke="red" stroke-width="4">
+</svg>
+</body>
+=======================================
+To draw Rectange
+--------------------
+<body>
+<svg height="300" width="300">
+<rect height="100" width="100" fill="yellow" stroke="red" stroke-width="4">
+</svg>
+</body> 
+===========================================================
+<map> and <area> tag
+========================(left,top,right,bottom)
+<body>
+<img src="a.jpg" height="150" width="600" usemap="#ab">
+<map name="ab">
+<area shape="rect" coords="0,0,200,150" href="http://www.yahoo.com" title="move to yahoo">
+<area shape="rect" coords="201,0,400,150" href="http://www.Google.com" title="move to Google">
+
+<area shape="rect" coords="401,0,600,150" href="http://www.facebook.com" title="move to FaceBook">
+</map>
+</body>
+==================================================================
+<marquee>Tag
+============
+It is used to move object.
+Attribute of <marquee> Tag
+=========================
+scrollamount
+bgcolor
+height
+width
+behavior
+direction
+Event
+=======
+onmouseover
+onmouseout
+================================
+
+Ex.1
+=======
+<body>
+<marquee>
+<h1> Welcome To Mathura </h1>
+</marquee>
+</body>
+Ex.2
+=======
+<body>
+<marquee>
+<img src="a.jpg" height="200" width="300">
+</marquee>
+</body>
+Ex.3
+=======
+<body>
+<marquee>
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+</marquee>
+</body>
+
+============================
+ex.4
+=====
+<body>
+<marquee scrollamount="30" behavior="alternate" direction="up" height="500" width="1370" onmouseover="this.stop()" onmouseout="this.start()">
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+<img src="a.jpg" height="200" width="300">
+</marquee>
+</body>
+============================================================
+<frameset>,<frame><noframes> tag
+====================================
+<frameset>:
+============
+To divide browser screen into multiple frame each frame can have seperate HTML file.
+Attribute of <frameset> tag
+===========================
+cols
+rows
+=================
+<frame>:- To provide source
+Attribute of <frame> tag
+=========================
+frameborder
+<noframes>:- To display message on browser window. If browser does not recgnize <frameset> tag.
+
+
+<head>
+<title>www.abc.com</title>
+</head>
+<frameset cols="30%,25%,45%">
+<frame src="file.html">
+<frame src="a.html">
+<frame src="1.html">
+</frameset>
+<noframes> Please Change Browser</noframes>
+==================================================
+<iframe>:-
+It provide internal frame where we can see another web page.
+example
+=======================
+<body>
+<p> This is a web page  ....</p>
+<iframe src="path" height="300" width="500">
+</iframe>
+</body>
+=================================================
+<pre> tag
+============
+It is a preformatting tag. It display text with space and newline as written in editor window.
+
+Example
+=========
+<body>
+<pre>
+"Twinke Twinkle Little star"
+					"jkh hjhjkh jkhjkhkhjkh h hkh jkh jk hjk"
+"The yttut ut utu t"
+					"uhgu hjkhjk hhj hkhk hjkhjk hjkh khk hjkh hk hjk"
+
+</pre>
+					
+</body>
+======================================================================
+
+
+
+
+

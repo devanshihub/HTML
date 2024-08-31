@@ -1,0 +1,336 @@
+List In HTML
+===========
+There are 3 types of List in HTML
+1) ordered List
+2) Unordered List
+3) definition list
+======================
+ordered List
+==========
+<ol> tag is used to create ordered list.
+Attribute of <ol> tag
+==============
+1) type:- 1,a,A,I,i
+2) start:- Any Number.
+
+Ex.1
+====
+<body>
+<ol>
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ol>
+</body>
+
+
+
+Example2:
+----
+
+<body>
+<ol type="A">
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ol>
+</body>
+
+ex.3
+====
+<body>
+<ol type="A" start="5">
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ol>
+</body>
+===============================
+unordered List
+==========
+<ul> tag is used to create unordered list.
+Attribute of <ul> tag
+==============
+1) type:- disc,circle,square
+
+Ex.1
+====
+<body>
+<ul>
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ul>
+</body>
+
+
+
+Example2:
+----
+
+<body>
+<ul type="circle">
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ul>
+</body>
+
+ex.3
+====
+<body>
+<ul type="square">
+<li>Hard</li>
+<li>Soft</li>
+<li>Complex</li>
+</ul>
+</body>
+================================
+Definition List
+===========
+<dl> tag is used to create definition list
+subtag
+=====
+<dt>:- definitionn Title
+<dd>:- definition data
+example
+<body>
+<dl>
+<dt>Hardware</dt>
+<dd>The set of Physical componenets that making up a computer is known as hardware.
+</dd>
+<dt>Software</dt>
+<dd>The set of instruction. ................... . . .               .............................. .....................................
+</dd>
+</dl>
+</body>
+==================================================
+Nested List
+----------------
+List Inside the list called nested list.
+
+1. Hardware
+	a. Input Device 
+	b. Output Device 
+	c. Storage Device
+2. Software
+	a. System Software
+	b. Application Software
+	c. Utility Software
+
+<body>
+<ol>
+<li>Hardware</li>
+<ol type="a">
+<li>Input Devivce </li>
+<li>Output Devivce </li>
+<li>Storage Devivce </li>
+</ol>
+<li>Software</li>
+<ol type="a">
+<li>System Software</li>
+ <li>Application Software</li>
+<li>Utility Software</li>
+</ol>
+</ol>
+</body>
+===================================================
+Tables  in HTML
+===========
+HTML provide following tag for table creation
+===============================
+<table>
+<caption>
+<tr>		
+<td> :- text in regular style and align is left
+<th> text in bold style and align is center
+<thead>
+<tfoot>
+<tbody>
+<colgroup>
+<col>
+================================
+Attribute of <table>tag
+=================
+border
+bordercolor
+bgcolor
+background
+align
+height
+width
+title:- For tooltip
+cellpadding:- distance of text from left ,right,top,bottom edges.
+cellspacing:- space between cells.
+
+
+
+
+Example1
+========
+<table border="1">
+<caption>EmpData</caption>
+<tr>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+</table>
+==============================
+Example
+======
+<table border="1" bordercolor="red" cellspacing="0" cellpadding="10" bgcolor="pink" background="a.jpg" title="Read carefully" align="center" height="400" width="500">
+<caption>EmpData</caption>
+<tr>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+</table>
+
+
+===========
+Example 3( example of colspan or merging cell column wise)
+========================================
+
+<table border="1">
+<tr><th colspan="3">EmpData</th></tr>
+
+<tr>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+</table>
+
+Example 4( example of rowspan or merging cell row wise)
+========================================
+
+<table border="1">
+
+<tr>
+<td rowspan="3">
+<img src="a.jpg" height="50" width="50">
+</td>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+</table>
+======================================================================
+<thead>:- Represent header row
+<tfoot>:- Represent Footer row
+<tbody>:- Represent body row
+
+Example:-
+=======
+<table border="1">
+
+<tfoot>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+</tfoot>
+<thead bgcolor="teal">
+<tr>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+</tbody>
+</table>
+==========================
+<colgroup> and <col> tag
+===================
+<table border="1">
+<colgroup>
+<col bgcolor="yellow">
+<col bgcolor="pink">
+<col bgcolor="teal">
+</colgroup>
+<tr>
+<td>Ram</th>
+<td>30</td>
+<td>20000</td>
+</tr>
+
+
+<tr>
+<th>Name</th>
+<td>age</td>
+<td>Salary</td>
+</tr>
+
+<tr>
+<td>Varun</th>
+<td>50</td>
+<td>40000</td>
+</tr>
+
+</table>
+======================================================================
+<details> and <summary>tag
+=======================
+<body>
+<details>
+<summary>
+Click Here
+</summary>
+<p>This is a Line one</p>
+<p>This is a Line one</p>
+<p>This is a Line one</p>
+<p>This is a Line one</p>
+</details>
+
+
+
+
